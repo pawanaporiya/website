@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google form</title>
+</head>
+<body>
+    <center><h1>College google form</h1></center>
+    <fieldset>
+        <legend>Google form </legend>
+        
+        <label for="Enter your name" ></label>
+        <input type="text" id="name" name="name"
+        placeholder="Enter your full name"
+        pattern="[A-Za-z\s] {3,50}"
+        title="Nmane should be contain only letterand spaces (3-20 characters)">
+       <br/> <br>
+       <input type="text" id="Email" name="Email"
+       placeholder="Enter your Email"
+       pattern="[A-Za-z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$"
+       title="Please Enter a valid email address (e.g.,name@example.com)" required>
+       <br> <br>
+       <input type="number" id="mobile number" name="mobile name"
+       placeholder="Enter 10 digit mobile number"
+       pattern="^[6-9]\d{9}$"
+       title="Enter a 10 digit valid indian number starting with 0-9">
+       <br> <br> 
+       <label for="skill">select skill</label>
+      <select name="skill" id=" course">
+      <option value="html">html</option>
+      <option value="css">css</option>
+      <option value="js">js</option>
+      </select>
+      <br> <br>
+      <input type="text" id="address" name="address"
+      placeholder="Enter your valid address"
+      pattern=""
+      title="Enter a valid addres">
+      <br> <br>
+      <input type="text" id="hobby" name="hobby"
+      placeholder="Enter your hobby"
+      pattern=""
+      title=" Enter your hobby">
+
+    <br> <br>
+    <label for="Games">Games</label>
+    <select name="like" id="Games">Games
+        <option value="Cricket">Cricket</option>
+        <option value="hockey">hockey</option>
+        <option value="Badmintan">nadmintan</option>
+    </select>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <br> <br>
+
+    <label for="Admission type">Admission type</label>
+    <select name="course" id="course">
+        <option value="B.tech">B.tech</option>
+        <option value="B.pharma">b.pharma</option>
+        <option value="D.pharma">D.pharma</d></option>
+    </select>
+    <br>
+        
+     <button type="submit" class="btn btn-primary">Submit</button>
+     <button type="reset" class="btn btn-primary">Reset</button>
+    
+</body>
+</html>
